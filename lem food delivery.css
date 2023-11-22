@@ -1,0 +1,330 @@
+*{
+    font-family:sans-serif;
+}
+.header{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+}
+.header img{
+    height: 100%;
+}
+.header-menu{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.header-menu li a{
+    text-decoration: none;
+}
+.header-menu a{
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+.header-menu img{
+    height: 100%;
+}
+.sign-up{
+    display: flex;
+    background: #008000;
+    border: 0px solid;
+    border-radius: 30px;
+    padding: 10px;
+    height: 30%;
+    width: 8rem;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in{
+    display: flex;
+    background: white;
+    border: 1px solid;
+    border-color: #008000;
+    border-radius: 30px;
+    padding: 10px;
+    height: 20%;
+    width: 8rem;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+.home-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+.get-started{
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
+    width: 100%;
+}
+.get-started a{
+    text-decoration: none;
+}
+.get-started-h1{
+font-weight: bolder;
+font-size: 60px;
+line-height: 30px;
+}
+.Delivered{
+    color: #008000;
+}
+.get-started-btn{
+    display: flex;
+    background: #008000;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    height: 10%;
+    width: 15rem;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.grilled-chicken{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+input{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.find-restaurants a{
+    text-decoration: none;
+}
+.find-restaurants{
+border: 1px solid #aaa;
+margin-top: 10px;
+padding:12px;
+height: 50px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 190px;
+}
+button{
+    height: 2rem;
+    width: 3rem;
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    display: flex;
+    padding: 20px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+.variety-img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+/* .variety-restaurant{
+    /* height: 100%;
+    width: 100%; */
+    /* text-align: center; */
+
+.variety-restaurant-h1{
+    font-size: 40px;
+}
+.order-now{
+    display: flex;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 30px;
+    border: 0px solid;
+    gap: 10px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:#008000;
+}
+.variety-restaurant a{
+    text-decoration: none;
+    color: white;
+}
+.foodmenu-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    row-gap: 1rem;
+}
+.Experience-app{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Experience-app img{
+   width: 100%;
+}
+ .Experience-lem{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Experience-lem a{
+    text-decoration: none;
+}
+.get-more{
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    font-size: 70px;
+    color:#fff;
+    line-height: 5rem;
+    /* gap: 3rem; */
+}
+.get-more1{
+    position: absolute;
+    top: 9rem;
+    left: 5rem;
+    font-size: 70px;
+    color:#fff;
+    line-height: 5rem;
+    /* gap: 3rem; */
+}
+.get-more2{
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    font-size: 70px;
+    color:#fff;
+    line-height: 5rem;
+    /* gap: 3rem; */
+}
+.libro{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    top: 35rem;
+    left: 5rem;
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0px solid; 
+} 
+.applestore{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    top: 35rem;
+    left: 10rem;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0px solid; 
+}
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap:wrap;
+}
+.restaurants-in-ibadan{
+    height: 100%;
+    width: 100%;
+    cursor:text;
+}
+.food-menu{
+    width: 100%;
+    height: 100%;
+    cursor:text;
+}
+.reach-customers{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 1fr;
+}
+.casa{
+    width: 100%;
+    height: 100%;
+    cursor: text;
+}
+.more-customers{
+    font-size: 70px;
+    line-height: 30px;
+    display: flex;
+}
+.expand-business{
+    line-height: 20px;
+}
+.grow-business{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30%;
+}
+.started{
+    width: 100%;
+    height: 100%;
+}
+.started a{
+    text-decoration: none;
+} 
+.started span{
+    display: flex;
+    background:#fff;
+    border: 1px solid  #008000;
+    border-radius: 30px;
+/* padding: 10px; */
+    height: 3rem;
+    width: 10rem;
+    gap: 1rem;
+    color: #008000;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+.business-solutions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.business-solutions a{
+    text-decoration: none;
+}
+.about-us{
+    cursor:text;
+}

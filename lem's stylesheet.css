@@ -1,0 +1,205 @@
+html{
+    --maincolor: rgba(6, 129, 13, 0.5);
+    --primarycolor: white;
+    --buttoncolor: #ccc; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.museo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:var(--maincolor);
+    align-items: center;
+    justify-content: center;
+}
+.business-solution
+{
+    width: 20rem;
+    height: 19rem;
+    border: 0px solid var(--primarycolor);
+    border-radius: 10px;
+    background: var(--primarycolor);
+
+}
+.business-solution-img{
+    display: flex;
+    width: 100%;
+    align-items:normal;
+    justify-content: end;
+    height: 4rem;
+}
+input{
+    border: 1px solid #aaa;
+    padding: 0 12px;
+    border-radius: 5px;
+    width: 14rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;   
+    margin-left: 1rem;
+}
+/* input{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+} */
+/* .replace-input{
+    border: 1px solid #aaa;
+    padding: 0 12px;
+    border-radius: 5px;
+    width: 8rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;   
+    margin-left: 1rem;
+} */
+label{
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 600;
+}
+h4{
+    margin-left: 1rem;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+h4 a{
+    text-decoration: none;
+    color:greenyellow;
+}
+.button{
+    margin-top: 1rem;
+    margin-left: 16rem;
+    border: 1px solid rgb(170, 167, 167);
+    border-radius: 3px;
+    height: 30px;
+    width: 3rem;
+}
+.button:hover{
+    border: 1px solid greenyellow;
+    color: white;
+    cursor: pointer;
+}
+/* 
+.conatiner{
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.sign-In-Form{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 0px solid var(--primarycolor);
+    border-radius: 5px;
+    background: var(--primarycolor);
+    height: 22rem;
+    width: 22rem;
+}
+
+.Continue{
+    border-radius: 10px;
+    height: 3rem;
+    width: 20rem;
+    margin-left: 1rem;
+    background: black;
+    color: var(--primarycolor);
+    margin-top: 20px;
+}
+
+.continue{
+    border-radius: 10px;
+    height: 3rem;
+    width: 25rem;
+    margin-left: 1rem;
+    background: black;
+    color: var(--primarycolor);
+    margin-top: 20px;
+}
+
+.para{
+    margin-top: 20px;
+    font-weight: 600; 
+    margin-left: 1rem;
+}
+
+#caro{
+    width: 18rem;
+    height: 2rem;
+    margin-top: 20px;
+}
+
+.Continue:hover{
+    background: #ccc;
+    color: black;
+    border: none;
+}
+
+.continue:hover,
+.continue:active{
+    background: aqua;
+    color: black;
+    border: none;
+
+}
+
+.Forgot-pin{
+    margin-top: 20px;
+    margin-left: 1.5rem;
+    font-size: 15px;
+}
+
+.login-form{
+    background: var(--primarycolor);
+    border-radius: 5px;
+    border: 0px solid var(--primarycolor);
+    height: 25rem;
+    width: 28rem;
+}
+
+.Welcome{
+    margin-top: 20px;
+    margin-left: 1.5rem;
+}
+
+#phone_number ,
+#digit_pin{
+    margin-top: 20px;
+    width: 24rem;
+}
+
+.Skips{
+    background: var(--buttoncolor);
+    color: black;
+    width: 25rem;
+    height: 3rem;
+    border: 0px solid var(--buttoncolor);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+
+.Skips:hover,
+.Skips:active{
+    background: greenyellow;
+    border: none;
+    color: black;
+}
+
+form a{
+    text-decoration: none;
+    color: black;
+}
+
+
+form a:active{
+    color: greenyellow;
+}
